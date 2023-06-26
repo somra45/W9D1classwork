@@ -6,12 +6,12 @@ export default class MovingObject {
         this.color = object.color;
     };
 
-    // draw(context) {
-    //     let asteroidPath = context.createPath();
-    //     context.arc(this.pos[0], this.pos[1], this.radius, 0, 2 * Math.PI)
-    //     context.fillStyle() = this.color
-    //     context.fill(asteroidPath)
-    // };
+    draw(context) {
+        let asteroidPath = context.createPath();
+        context.arc(this.pos[0], this.pos[1], this.radius, 0, 2 * Math.PI)
+        context.fillStyle = this.color
+        context.fill(asteroidPath)
+    };
 
     move () {
 

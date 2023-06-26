@@ -1,8 +1,8 @@
 import MovingObject from "./moving-object.js";
 
-class Asteroid {
+class Asteroid extends MovingObject {
     constructor() {
         super();
-        this.MovingObject = new MovingObject()
+    
     };
 };
