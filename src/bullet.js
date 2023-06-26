@@ -6,3 +6,6 @@ class Bullet {
         this.MovingObject = new MovingObject()
     }
 };
+
+
+export default Bullet;

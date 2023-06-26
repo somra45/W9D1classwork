@@ -5,3 +5,6 @@ class Ship {
         this.MovingObject = new MovingObject()
     }
 };
+
+
+export default Ship;
